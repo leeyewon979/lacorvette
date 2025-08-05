@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/lacorvette.css">
+    <link rel="stylesheet" href="./css/shopping.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Swiper API -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper API -->
+    <title>lacorvette-soap</title>
+</head>
+<body>
+    <div class="header">
+        <div class="nav1">
+            <a href="#">쇼핑</a>
+            <a href="#">라코벳 이야기</a>
+            <a href="#">SALE</a>
+            <a href="#">커뮤니티</a>
+            <a href="#">제휴 안내</a>
+        </div>
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="nav2">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+            <a href="#">장바구니</a>
+        </div>
+    </div>
+<!--header end-->
+    <div class="shopContainer">
+        <div class="left">
+            <ul class="menu">
+                <li><a href="#">클래식</a></li>
+                <li><a href="#">홈케어</a></li>
+                <li><a href="#">지중해</a></li>
+                <li><a href="#">아멜리에</a></li>
+                <li><a href="#">런드리</a></li>
+                <li><a href="#">나뚜레 도눔</a></li>
+                <li><a href="#">선물세트</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="shopText">
+                <span>상품 20</span>
+                <div class="dropdown">
+                    <button>등록순</button>
+                    <ul>
+                        <li>등록순</li>
+                        <li>인기순</li>
+                        <li>낮은가격순</li>
+                        <li>높은가격순</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="shopInside">
+                <!-- 상품 카드 1 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct1.JPG" alt="올리브 비누">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 200g</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+                <!-- 상품 카드 2 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct2.JPG" alt="비누 세트">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 프로방스 비누 세트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                    
+                </div>
+                <!-- 상품 카드 3 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct3.JPG" alt="비누 블럭 트리플">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 트리플 200g*3</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 50</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 4</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>    
+                </div>
+                <!-- 상품 카드 4 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct4.JPG" alt="올리브 비누 퀘테트">
+                        <div class="badges">
+                            <span class="badge new">NEW</span>
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]NEW 사봉 드 마르세유 올리브 비누 쿼테트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 108</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 1</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+                <!-- 상품 카드 1 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct1.JPG" alt="올리브 비누">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 200g</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div> 
+                <!-- 상품 카드 2 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct2.JPG" alt="비누 세트">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 프로방스 비누 세트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                    
+                </div>
+                <!-- 상품 카드 3 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct3.JPG" alt="비누 블럭 트리플">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 트리플 200g*3</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 50</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 4</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>    
+                </div>
+                <!-- 상품 카드 4 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct4.JPG" alt="올리브 비누 퀘테트">
+                        <div class="badges">
+                            <span class="badge new">NEW</span>
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]NEW 사봉 드 마르세유 올리브 비누 쿼테트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 108</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 1</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+                                <!-- 상품 카드 1 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct1.JPG" alt="올리브 비누">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 200g</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div> 
+                <!-- 상품 카드 2 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct2.JPG" alt="비누 세트">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 프로방스 비누 세트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                    
+                </div>
+                <!-- 상품 카드 3 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct3.JPG" alt="비누 블럭 트리플">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 트리플 200g*3</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 50</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 4</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>    
+                </div>
+                <!-- 상품 카드 4 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct4.JPG" alt="올리브 비누 퀘테트">
+                        <div class="badges">
+                            <span class="badge new">NEW</span>
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]NEW 사봉 드 마르세유 올리브 비누 쿼테트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 108</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 1</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+                                <!-- 상품 카드 1 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct1.JPG" alt="올리브 비누">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 200g</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div> 
+                <!-- 상품 카드 2 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct2.JPG" alt="비누 세트">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 프로방스 비누 세트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                    
+                </div>
+                <!-- 상품 카드 3 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct3.JPG" alt="비누 블럭 트리플">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 트리플 200g*3</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 50</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 4</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>    
+                </div>
+                <!-- 상품 카드 4 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct4.JPG" alt="올리브 비누 퀘테트">
+                        <div class="badges">
+                            <span class="badge new">NEW</span>
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]NEW 사봉 드 마르세유 올리브 비누 쿼테트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 108</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 1</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+                                <!-- 상품 카드 1 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct1.JPG" alt="올리브 비누">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 200g</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div> 
+                <!-- 상품 카드 2 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct2.JPG" alt="비누 세트">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 프로방스 비누 세트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 59</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 8</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                    
+                </div>
+                <!-- 상품 카드 3 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct3.JPG" alt="비누 블럭 트리플">
+                        <div class="badges">
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]사봉 드 마르세유 올리브 비누 블럭 트리플 200g*3</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 50</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 4</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>    
+                </div>
+                <!-- 상품 카드 4 -->
+                <div class="shopCard">
+                    <div class="product-image">
+                        <img src="./assets/shopImg/shopProduct4.JPG" alt="올리브 비누 퀘테트">
+                        <div class="badges">
+                            <span class="badge new">NEW</span>
+                            <span class="badge sale">SALE</span>
+                            <span class="badge best">BEST</span>
+                        </div>
+                    </div>
+                    <p class="product-title">[라코벳 프랑스]NEW 사봉 드 마르세유 올리브 비누 쿼테트 100g*4</p>
+                    <div class="price">
+                        <div class="original-price">
+                            <span class="original">14,300원</span>
+                        </div>
+                        <div class="discount-price">
+                            <span class="discount">20%</span>
+                            <span class="sale-price">11,400원</span>
+                        </div>
+                    </div>
+                    <div class="product-tools">
+                        <button class="icon comment"><img src="./assets/shopImg/comment.png" alt="comment"> 108</button>
+                        <button class="icon like"><img src="./assets/shopImg/heart.png" alt="like"> 1</button>
+                        <button class="icon cart"><img src="./assets/shopImg/cart.png" alt="cart"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer start-->   
+    <div class="footer">
+        <div>
+            <div class="copyright">
+            <img src="./assets/footerlogo.png" alt="logo">
+            <p>상호: 주식회사 화우트레이딩 | 대표: 노은경 | 사업자등로번호: 842-87-00424<br>
+            주소: 서울특별시 서초구 동광로 18길20,202호(06688) | 대표전화: 02-533-3392<br>
+            Copyright&copy;2025 LA CORVETTE 라코르벳 공식몰 All rights reserved.<br>
+            Hosting by (주)아임웹 Summer collection vector created by freepik - www.freepik.com</p>
+            </div>
+            <div class="sns">
+                <a href="#">
+                    <img src="./assets/instagram.png" alt="instagram" width="27">
+                </a>
+                <a href="#">
+                    <img src="./assets/youtube.png" alt="youtube" width="30">
+                </a>
+                <a href="#">
+                    <img src="./assets/facebook.png" alt="facebook" width="25">
+                </a>
+            </div>
+        </div>
+    </div>
+<!--footer end-->
+
+<script>
+    const dropdown = document.querySelector('.dropdown');
+    const button = dropdown.querySelector('button');
+    const options = dropdown.querySelectorAll('li');
+
+    button.addEventListener('click', () => {
+        dropdown.classList.toggle('open');
+    });
+
+    options.forEach(option => {
+        option.addEventListener('click', () => {
+            button.textContent = option.textContent;
+            dropdown.classList.remove('open');
+        });
+    });
+
+</script>
+
+</body>
